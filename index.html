@@ -238,7 +238,7 @@
             <div class="tag-list"><span>C++</span><span>Navigation</span><span>Automation</span><span>Debugging</span></div>
           </article>
 
-          <article class="project-card reveal" data-delay="210">
+          <article class="project-card reveal" data-delay="280">
             <div class="project-number">05</div>
             <div class="project-topline">
               <span class="project-type">Navigation Systems</span>
@@ -251,6 +251,38 @@
               <li>로그 분석 및 기능 유지보수</li>
             </ul>
             <div class="tag-list"><span>C++</span><span>Navigation</span><span>Debugging</span></div>
+          </article>
+
+          <article class="project-card reveal" data-delay="350">
+            <div class="project-number">06</div>
+            <div class="project-topline">
+              <span class="project-type">Windows Desktop App</span>
+              <span class="project-state">Toy Project</span>
+            </div>
+            <h3>Windows 일정 관리 프로그램</h3>
+            <p>개인 일정 관리를 위한 로컬 Windows 데스크톱 앱으로, C# WPF UI가 P/Invoke로 Native C++ 백엔드 DLL을 호출하는 구조로 구현했습니다.</p>
+            <ul class="project-points compact">
+              <li>WPF·MVVM 기반 월간 캘린더, 일정 CRUD, 검색, 카테고리 관리 화면 구현</li>
+              <li>SQLite 저장소, 마이그레이션, 반복 일정 계산, 백업·복원 로직을 C++17 계층에 분리</li>
+              <li>x64 Release 패키징과 자동화 테스트를 수행하고, 일반 배포 전 QA 리스크를 문서화</li>
+            </ul>
+            <div class="tag-list"><span>C# WPF</span><span>MVVM</span><span>C++17</span><span>P/Invoke</span><span>SQLite</span></div>
+          </article>
+
+          <article class="project-card reveal" data-delay="420">
+            <div class="project-number">07</div>
+            <div class="project-topline">
+              <span class="project-type">Device / Vision Monitoring</span>
+              <span class="project-state">Toy Project</span>
+            </div>
+            <h3>장비·비전 모니터링 데스크톱 앱</h3>
+            <p>TCP 장비 상태, 시리얼 센서 데이터, OpenCV 영상 처리를 한 화면에서 확인하는 Windows WPF 모니터링 샘플을 구현했습니다.</p>
+            <ul class="project-points compact">
+              <li>C# WPF UI와 C++17 Core DLL을 P/Invoke로 연결하고 TCP 명령·상태 수신 경로 구현</li>
+              <li>TCP 장비 시뮬레이터, 시리얼 센서 패킷 파서, 체크섬 검증, 실시간 차트와 파일 로그 구성</li>
+              <li>OpenCvSharp 기반 Test Pattern·WebCam·Video File 입력과 Gray·Canny·Threshold 처리 모드 추가</li>
+            </ul>
+            <div class="tag-list"><span>C# WPF</span><span>C++17</span><span>P/Invoke</span><span>TCP</span><span>Serial</span><span>OpenCV</span></div>
           </article>
         </div>
       </div>
